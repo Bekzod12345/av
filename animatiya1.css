@@ -1,0 +1,16 @@
+div{ width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 5s;
+    left: 0%;
+    top: 50px;
+    position: relative;
+   animation-iteration-count: infinite;
+   border-radius: 50%;
+
+}
+@keyframes example {
+    0%{left:0;}
+    100%{left:100%;}
+  }
